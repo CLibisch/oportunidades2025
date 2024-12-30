@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oportunidades 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oportunidades 2025</h1>
+    <div class="button-container">
+        <button id="financingButton">Oportunidades de Financiación</button>
+        <button id="congressButton">Oportunidades de Congresos</button>
+    </div>
+
+    <script>
+        document.getElementById('financingButton').addEventListener('click', function() {
+            alert('Aquí se mostrarán oportunidades de financiación. Próxima conexión con ChatGPT.');
+        });
+
+        document.getElementById('congressButton').addEventListener('click', function() {
+            alert('Aquí se mostrarán oportunidades de congresos. Próxima conexión con ChatGPT.');
+        });
+    </script>
+</body>
+</html>
